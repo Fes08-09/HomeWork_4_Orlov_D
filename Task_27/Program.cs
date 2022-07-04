@@ -18,8 +18,7 @@ int sum (int r)
     int result = 0;
     string str = r.ToString();
     int[] sum = new int[str.Length];
-    int i = 0;
-    for(i=0; i< str.Length; i++)
+    for(int i=0; i< str.Length; i++)
     {
         sum[i] = int.Parse(str[i].ToString());
         result+=sum[i]; 
